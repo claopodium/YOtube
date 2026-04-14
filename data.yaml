@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 1
+names: ['drop']
+
+roboflow:
+  workspace: maodies-workspace
+  project: maodies-workspace
+  version: dataset
+  license: Private
+  url: https://app.roboflow.com/maodies-workspace/maodies-workspace/dataset
