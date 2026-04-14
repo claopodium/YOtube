@@ -29,7 +29,7 @@ for r in results:
         x1, y1, x2, y2 = map(int, box)
 
         # label id
-        label = f"ID: {i}"
+        label = f"ID: {i+1}"
         cv2.putText(
             image,
             label,
